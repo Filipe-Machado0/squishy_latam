@@ -115,6 +115,17 @@
     .price-box .price-big { font-size:3rem; font-weight:900; line-height:1; }
     .price-box .price-note { font-size:.78rem; opacity:.8; margin-top:6px; }
 
+    /* NOTA DE CONVERSÃO — transparência psicológica */
+    .currency-note {
+      display:flex; align-items:flex-start; gap:10px;
+      background:#f0fdf4; border:1.5px solid #86efac;
+      border-radius:14px; padding:12px 16px;
+      margin-top:12px; font-size:.83rem; color:#166534;
+      font-weight:600; line-height:1.5;
+    }
+    .currency-note .cn-icon { font-size:1.2rem; flex-shrink:0; margin-top:1px; }
+    .currency-note strong { display:block; margin-bottom:2px; font-size:.88rem; color:#15803d; }
+
     /* TESTIMONIALS */
     #testimonials { padding:52px 0; background:linear-gradient(160deg,#fff0f6 0%,var(--cream) 100%); }
     .testi-grid { display:flex; flex-direction:column; gap:16px; }
@@ -307,46 +318,52 @@
       <div class="bonus-card fade-in">
         <div class="b-icon">📅</div>
         <div class="b-txt"><strong>Desafío Creativo de 30 Días</strong><span>Actividades diarias para mantener a tus hijos entretenidos todo el mes</span></div>
-        <div class="b-price">$9.990</div>
+        <div class="b-price">€9,90</div>
       </div>
       <div class="bonus-card fade-in">
         <div class="b-icon">🧩</div>
         <div class="b-txt"><strong>60 Juegos Imprimibles</strong><span>Laberintos, sopas de letras, colorear y rompecabezas para imprimir</span></div>
-        <div class="b-price">$7.990</div>
+        <div class="b-price">€7,90</div>
       </div>
       <div class="bonus-card fade-in">
         <div class="b-icon">👗</div>
         <div class="b-txt"><strong>Armario de Muñecas de Papel</strong><span>Moldes de ropa, accesorios y personajes para recortar y vestir</span></div>
-        <div class="b-price">$9.990</div>
+        <div class="b-price">€9,90</div>
       </div>
       <div class="bonus-card fade-in">
         <div class="b-icon">🎬</div>
         <div class="b-txt"><strong>Tutoriales en Video Paso a Paso</strong><span>Videos que muestran cada técnica para un acabado perfecto</span></div>
-        <div class="b-price">$9.990</div>
+        <div class="b-price">€9,90</div>
       </div>
     </div>
     <div class="price-table fade-in">
       <table>
         <thead><tr><th>¿Qué incluye?</th><th>Valor real</th></tr></thead>
         <tbody>
-          <tr><td>Pack Principal (+500 moldes)</td><td>$29.990</td></tr>
-          <tr><td>Desafío Creativo 30 Días</td><td>$9.990</td></tr>
-          <tr><td>60 Juegos Imprimibles</td><td>$7.990</td></tr>
-          <tr><td>Armario de Muñecas de Papel</td><td>$9.990</td></tr>
-          <tr><td>Tutoriales en Video</td><td>$9.990</td></tr>
-          <tr class="total"><td>💰 VALOR TOTAL</td><td>$67.950</td></tr>
+          <tr><td>Pack Principal (+500 moldes)</td><td>€29,90</td></tr>
+          <tr><td>Desafío Creativo 30 Días</td><td>€9,90</td></tr>
+          <tr><td>60 Juegos Imprimibles</td><td>€7,90</td></tr>
+          <tr><td>Armario de Muñecas de Papel</td><td>€9,90</td></tr>
+          <tr><td>Tutoriales en Video</td><td>€9,90</td></tr>
+          <tr class="total"><td>💰 VALOR TOTAL</td><td>€67,50</td></tr>
         </tbody>
       </table>
     </div>
     <div class="price-box fade-in">
-      <div class="was">Valor total: $67.950</div>
+      <div class="was">Valor total: €67,50</div>
       <div class="now-label">🔥 ¡Precio especial de hoy!</div>
-      <div class="price-big">$15.900</div>
-      <div class="price-note">* Precio en tu moneda local. Se convierte automáticamente al finalizar la compra en Hotmart.</div>
+      <div class="price-big">€14,90</div>
+    </div>
+    <div class="currency-note fade-in">
+      <div class="cn-icon">🌍</div>
+      <div>
+        <strong>Pagás en tu moneda local — sin sorpresas.</strong>
+        El precio se muestra en euros como referencia internacional. Hotmart convierte automáticamente al finalizar el pago. <em>Verás el importe final en tu moneda antes de confirmar la compra.</em>
+      </div>
     </div>
     <br/>
-    <a href="#" class="btn-cta fade-in">¡Quiero Todo Esto Por $15.900! →</a>
-    <p class="hero-cta-sub fade-in" style="margin-top:10px;">🔒 Acceso inmediato · PDF Descargable · Funciona en cualquier dispositivo</p>
+    <a href="#" class="btn-cta fade-in">¡Quiero Todo Esto Por €14,90! →</a>
+    <p class="hero-cta-sub fade-in" style="margin-top:10px;">🔒 Pago seguro · PDF Descargable · Acceso automático tras la confirmación del pago</p>
   </div>
 </section>
 
@@ -418,13 +435,20 @@
         <li>Garantía de 7 días sin preguntas</li>
       </ul>
     </div>
-    <div class="price-box fade-in" style="margin-bottom:20px;">
-      <div class="was">Valor total: $67.950</div>
+    <div class="price-box fade-in" style="margin-bottom:12px;">
+      <div class="was">Valor total: €67,50</div>
       <div class="now-label">🔥 Solo por hoy</div>
-      <div class="price-big">$15.900</div>
+      <div class="price-big">€14,90</div>
     </div>
-    <a href="#" class="btn-cta fade-in" style="font-size:1.1rem;">¡Acceder Ahora por Solo $15.900! →</a>
-    <p class="cta-instant fade-in">🔒 Pago 100% seguro · Acceso inmediato · PDF · Funciona en cualquier dispositivo · Hotmart</p>
+    <div class="currency-note fade-in" style="margin-bottom:20px;">
+      <div class="cn-icon">🌍</div>
+      <div>
+        <strong>Pagás en tu moneda local — sin sorpresas.</strong>
+        El precio base es en euros. Hotmart convierte automáticamente al finalizar. <em>Verás el importe final en tu moneda antes de confirmar la compra.</em>
+      </div>
+    </div>
+    <a href="#" class="btn-cta fade-in" style="font-size:1.1rem;">¡Acceder Ahora por Solo €14,90! →</a>
+    <p class="cta-instant fade-in">🔒 Pago 100% seguro · PDF · Acceso automático tras la confirmación del pago · Hotmart</p>
   </div>
 </section>
 
@@ -444,7 +468,11 @@
       </div>
       <div class="faq-item fade-in">
         <button class="faq-q"><span>¿Cuándo recibo mi acceso?</span><span class="chevron">▼</span></button>
-        <div class="faq-a">¡De forma inmediata! En cuanto confirmés el pago, Hotmart te envía automáticamente un email con el enlace de descarga. No tenés que esperar nada.</div>
+        <div class="faq-a">El acceso es automático tras la confirmación del pago. Hotmart te envía un email con el enlace de descarga en cuanto el pago se confirma. Si usás medios locales (transferencia, boleto), puede tardar algunas horas — pero llegará.</div>
+      </div>
+      <div class="faq-item fade-in">
+        <button class="faq-q"><span>¿El precio es en euros? ¿Cuánto pago yo?</span><span class="chevron">▼</span></button>
+        <div class="faq-a">El precio base es €14,90 en euros como referencia internacional. Hotmart convierte automáticamente a tu moneda local (pesos argentinos, colombianos, mexicanos, etc.) antes de finalizar. Verás el importe exacto en tu moneda antes de confirmar — sin sorpresas.</div>
       </div>
       <div class="faq-item fade-in">
         <button class="faq-q"><span>¿Es seguro el pago?</span><span class="chevron">▼</span></button>
@@ -468,7 +496,7 @@
     <div class="bump-box fade-in">
       <div class="bump-icon">🧪</div>
       <p><strong style="color:#fff;font-size:1rem;">💡 Al finalizar tu compra...</strong></p>
-      <p>Vas a tener la opción de agregar el <strong style="color:#F9CA24;">Mini-Kit de Slime &amp; Juguetes DIY</strong> por solo <strong style="color:#F9CA24;">+$5.000</strong> — el complemento perfecto. ¡No te lo pierdas!</p>
+      <p>Vas a tener la opción de agregar el <strong style="color:#F9CA24;">Mini-Kit de Slime &amp; Juguetes DIY</strong> por solo <strong style="color:#F9CA24;">+€4,90</strong> — el complemento perfecto. ¡No te lo pierdas!</p>
     </div>
   </div>
 </section>
@@ -483,7 +511,7 @@
 
 <!-- FLOATING CTA -->
 <div id="floating-cta">
-  <a href="#">¡Quiero el Pack por $15.900! →<span>🔒 Acceso inmediato · 7 días de garantía</span></a>
+  <a href="#">¡Quiero el Pack por €14,90! →<span>🔒 Pago seguro · Acceso automático tras confirmación</span></a>
 </div>
 
 <script>
