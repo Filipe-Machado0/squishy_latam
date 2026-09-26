@@ -59,11 +59,6 @@
     .club-badge-row { display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:28px; }
     .club-pill { background:var(--gold); color:#fff; border-radius:50px; padding:7px 16px; font-size:.82rem; font-weight:900; display:flex; align-items:center; gap:5px; }
 
-    /* Mockup */
-    .product-mockup { width:100%; max-width:420px; aspect-ratio:4/3; background:linear-gradient(135deg,var(--gold-light),#fde68a); border-radius:20px; margin:0 auto 32px; display:flex; flex-direction:column; align-items:center; justify-content:center; border:3px dashed var(--gold); gap:8px; padding:24px; text-align:center; }
-    .product-mockup .icon { font-size:3rem; }
-    .product-mockup span { font-size:.8rem; color:var(--gray); font-weight:700; text-transform:uppercase; letter-spacing:1px; }
-
     /* Seasons grid */
     .seasons-grid { display:flex; flex-direction:column; gap:14px; margin-bottom:24px; }
     .season-card { background:var(--white); border-radius:18px; overflow:hidden; box-shadow:0 2px 14px rgba(0,0,0,.07); }
@@ -71,7 +66,7 @@
     .season-icon { font-size:2rem; flex-shrink:0; }
     .season-header h3 { font-weight:900; font-size:1rem; color:var(--dark); margin:0; }
     .season-header .s-badge { margin-left:auto; background:var(--gold-light); color:var(--gold); font-weight:900; font-size:.72rem; padding:3px 10px; border-radius:50px; white-space:nowrap; }
-    .season-body { padding:0 18px 16px; font-size:.88rem; color:var(--gray); border-top:1px dashed #f0e0c0; padding-top:12px; }
+    .season-body { padding:12px 18px 16px; font-size:.88rem; color:var(--gray); border-top:1px dashed #f0e0c0; }
     .season-body ul { list-style:none; display:flex; flex-direction:column; gap:5px; }
     .season-body ul li::before { content:"✦ "; color:var(--gold); font-size:.75rem; }
 
@@ -157,18 +152,15 @@
       pero <span class="gold">¿qué pasa cuando los terminás todos?</span> 🤔
     </h2>
     <p class="hook-sub fade-in">La creatividad de tus hijos no para. Y el pack principal tampoco debería.</p>
-
     <div class="hook-box fade-in">
       <p>Los papás que ya compraron el Mundo Squishy Pack nos dicen lo mismo: <strong>"¡Los chicos terminaron todos los moldes en una semana y me piden más!"</strong><br><br>
       Y tiene todo el sentido — cuando algo entusiasma a tus hijos, lo hacen una y otra vez. El problema es que el pack principal tiene límites... y el entusiasmo de ellos, no.</p>
     </div>
-
     <ul class="limitation-list">
       <li class="fade-in"><span class="e">🔄</span><span>Repiten los mismos moldes una y otra vez — y el juguete pierde la magia.</span></li>
       <li class="fade-in"><span class="e">🌦️</span><span>Cada estación del año pide diseños diferentes: no es lo mismo hacer squishies en verano que en Navidad.</span></li>
       <li class="fade-in"><span class="e">✨</span><span>Los chicos quieren personajes nuevos, temas nuevos, sorpresas nuevas — la novedad es el combustible de la creatividad.</span></li>
     </ul>
-
     <div class="hook-bridge fade-in">
       <p>🏆 <strong>¿Y si tuvieras contenido fresco para todo el año</strong> — colecciones exclusivas para cada estación, eventos y momentos especiales — por un único pago irrisorio?</p>
     </div>
@@ -194,16 +186,12 @@
       <div class="club-pill">❄️ Invierno</div>
     </div>
 
-    <!-- Mockup placeholder -->
-    <div class="product-mockup fade-in">
-      <div class="icon">🏆</div>
-      <strong style="color:var(--gold);font-size:1rem;">IMAGEN DEL PRODUCTO AQUÍ</strong>
-      <span>Mockup · Club del Squishy · 1200×900px</span>
-    </div>
+    <!-- Mockup real -->
+    <img src="club-squishy.jpg" alt="Club del Squishy — Temporada Completa" loading="lazy" class="fade-in"
+      style="width:100%;max-width:500px;display:block;margin:0 auto 32px;border-radius:20px;box-shadow:0 8px 32px rgba(245,158,11,.28);" />
 
     <!-- Seasons -->
     <div class="seasons-grid">
-
       <div class="season-card fade-in">
         <div class="season-header">
           <div class="season-icon">🌸</div>
@@ -218,7 +206,6 @@
           </ul>
         </div>
       </div>
-
       <div class="season-card fade-in">
         <div class="season-header">
           <div class="season-icon">☀️</div>
@@ -233,7 +220,6 @@
           </ul>
         </div>
       </div>
-
       <div class="season-card fade-in">
         <div class="season-header">
           <div class="season-icon">🍂</div>
@@ -248,7 +234,6 @@
           </ul>
         </div>
       </div>
-
       <div class="season-card fade-in">
         <div class="season-header">
           <div class="season-icon">❄️</div>
@@ -263,25 +248,15 @@
           </ul>
         </div>
       </div>
-
     </div>
 
     <!-- Exclusive extras -->
     <div class="exclusive-box fade-in">
       <h3>🎁 Bonus exclusivos del Club:</h3>
       <div class="exclusive-items">
-        <div class="excl-item">
-          <div class="ei">🎨</div>
-          <span>Guía de técnicas avanzadas: relieve, textura y acabado mate</span>
-        </div>
-        <div class="excl-item">
-          <div class="ei">🎪</div>
-          <span>20 diseños de edición limitada — nunca vendidos por separado</span>
-        </div>
-        <div class="excl-item">
-          <div class="ei">🏷️</div>
-          <span>Tarjetas de regalo imprimibles para los squishies terminados</span>
-        </div>
+        <div class="excl-item"><div class="ei">🎨</div><span>Guía de técnicas avanzadas: relieve, textura y acabado mate</span></div>
+        <div class="excl-item"><div class="ei">🎪</div><span>20 diseños de edición limitada — nunca vendidos por separado</span></div>
+        <div class="excl-item"><div class="ei">🏷️</div><span>Tarjetas de regalo imprimibles para los squishies terminados</span></div>
       </div>
     </div>
   </div>
@@ -305,18 +280,16 @@
         </tbody>
       </table>
     </div>
-
     <div class="oto-price-box fade-in">
       <div class="oto-label">⭐ Oferta de Una Sola Vez — Solo para Miembros Nuevos</div>
       <div class="was">Valor total: €82,30</div>
       <div class="now-txt">🔥 Precio especial exclusivo — solo en esta pantalla</div>
-      <div class="price-hero">€12,90</div>
+      <div class="price-hero">€9,99</div>
       <div class="warning-txt">
         ⚠️ Si cerrás o recargás esta página, <strong>perdés este precio para siempre.</strong><br>
         No hay forma de volver a acceder a esta oferta de miembro nuevo.
       </div>
     </div>
-
     <div class="currency-note fade-in">
       <div class="cn-icon">🌍</div>
       <div>
@@ -331,17 +304,15 @@
 <section id="cta-section">
   <div class="container">
     <a href="#" class="btn-yes fade-in">
-      🏆 ¡SÍ! Quiero el Club del Squishy Completo por €12,90 →
+      🏆 ¡SÍ! Quiero el Club del Squishy Completo por €9,99 →
       <small>Se agrega a tu pedido actual. Un solo clic, sin llenar nada más.</small>
     </a>
-
     <div class="security-strip fade-in">
       <span>🔒 Pago 100% seguro</span>
       <span>⚡ Se agrega automáticamente</span>
       <span>🛡️ Garantía 7 días</span>
       <span>📄 PDF descargable</span>
     </div>
-
     <a href="upsell2.html" class="btn-no fade-in">
       No gracias, no me interesan 320+ moldes exclusivos para todo el año.
     </a>
