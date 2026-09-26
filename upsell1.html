@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Â¡Espera! Oferta Exclusiva â€” Club del Squishy: Temporada Completa</title>
+  <title>¡Espera! Oferta Exclusiva — Club del Squishy: Temporada Completa</title>
   <meta name="robots" content="noindex, nofollow" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,7 +15,7 @@
       --pink:#FF6B9D; --pink-light:#FFD6E7; --pink-dark:#E0457A;
       --purple:#9B59B6; --purple-light:#EDE1F5;
       --green:#27AE60; --green-dark:#1E8449; --green-light:#D5F5E3;
-      --yellow:#F9CA24; --gold:#f59e0b; --gold-light:#fef3c7;
+      --gold:#f59e0b; --gold-light:#fef3c7;
       --cream:#FFF9F0; --white:#FFFFFF;
       --gray:#6C757D; --dark:#2C3E50; --red:#E74C3C;
     }
@@ -26,59 +26,50 @@
     .fade-in { opacity:0; transform:translateY(20px); transition:opacity .55s ease,transform .55s ease; }
     .fade-in.visible { opacity:1; transform:translateY(0); }
 
-    /* URGENCY BAR */
-    #urgency-bar { background:var(--red); color:#fff; text-align:center; padding:12px 16px; font-size:.9rem; font-weight:800; letter-spacing:.3px; position:sticky; top:0; z-index:100; line-height:1.4; }
+    #urgency-bar { background:var(--red); color:#fff; text-align:center; padding:12px 16px; font-size:.9rem; font-weight:800; position:sticky; top:0; z-index:100; line-height:1.4; }
 
-    /* CONGRATS */
     #congrats { background:linear-gradient(160deg,#fff0f6 0%,#f3e8ff 100%); padding:40px 0 32px; text-align:center; border-bottom:4px dashed var(--pink-light); }
     .congrats-badge { display:inline-block; background:var(--green); color:#fff; font-weight:900; font-size:.85rem; text-transform:uppercase; letter-spacing:1.5px; padding:8px 20px; border-radius:50px; margin-bottom:20px; }
-    #congrats h1 { font-size:clamp(1.5rem,5vw,2rem); font-weight:900; line-height:1.2; margin-bottom:14px; color:var(--dark); }
+    #congrats h1 { font-size:clamp(1.5rem,5vw,2rem); font-weight:900; line-height:1.2; margin-bottom:14px; }
     #congrats h1 span { color:var(--pink-dark); }
-    #congrats .transition-copy { font-size:1rem; color:#555; font-weight:600; max-width:480px; margin:0 auto; background:var(--white); border-left:4px solid var(--purple); border-radius:0 12px 12px 0; padding:14px 18px; text-align:left; }
-    #congrats .transition-copy strong { color:var(--purple); }
+    .transition-copy { font-size:1rem; color:#555; font-weight:600; max-width:480px; margin:0 auto; background:var(--white); border-left:4px solid var(--purple); border-radius:0 12px 12px 0; padding:14px 18px; text-align:left; }
+    .transition-copy strong { color:var(--purple); }
 
-    /* HOOK */
     #hook { background:var(--white); padding:48px 0; }
     .hook-headline { font-size:clamp(1.4rem,4.5vw,1.9rem); font-weight:900; text-align:center; line-height:1.25; margin-bottom:10px; }
     .hook-headline .gold { color:var(--gold); }
     .hook-sub { text-align:center; color:var(--gray); font-size:.97rem; margin-bottom:28px; }
-    .hook-box { background:linear-gradient(135deg,var(--gold-light),#fff8e1); border:2px solid var(--gold); border-radius:18px; padding:22px 20px; margin-bottom:20px; }
-    .hook-box p { font-size:.97rem; font-weight:600; color:var(--dark); line-height:1.6; }
-    .hook-box p strong { color:var(--gold); }
+    .hook-box { background:linear-gradient(135deg,var(--gold-light),#fff8e1); border:2px solid var(--gold); border-radius:18px; padding:22px 20px; margin-bottom:20px; font-size:.97rem; font-weight:600; line-height:1.6; }
+    .hook-box strong { color:var(--gold); }
     .limitation-list { list-style:none; display:flex; flex-direction:column; gap:12px; }
     .limitation-list li { display:flex; align-items:flex-start; gap:12px; background:#fff5f8; border-left:4px solid var(--pink); border-radius:12px; padding:12px 16px; font-weight:600; font-size:.93rem; }
     .limitation-list li .e { font-size:1.3rem; flex-shrink:0; }
-    .hook-bridge { margin-top:24px; background:linear-gradient(135deg,var(--gold-light),var(--pink-light)); border-radius:16px; padding:18px 20px; text-align:center; font-size:1rem; font-weight:700; color:var(--dark); }
+    .hook-bridge { margin-top:24px; background:linear-gradient(135deg,var(--gold-light),var(--pink-light)); border-radius:16px; padding:18px 20px; text-align:center; font-size:1rem; font-weight:700; }
 
-    /* PRODUCT REVEAL */
     #product-reveal { background:linear-gradient(160deg,var(--gold-light) 0%,var(--cream) 100%); padding:52px 0; }
     .reveal-badge { display:inline-block; background:linear-gradient(135deg,var(--gold),#f77f00); color:#fff; font-weight:900; font-size:.78rem; text-transform:uppercase; letter-spacing:2px; padding:6px 18px; border-radius:50px; margin-bottom:14px; }
-    .reveal-title { font-size:clamp(1.7rem,5vw,2.3rem); font-weight:900; text-align:center; line-height:1.2; margin-bottom:6px; color:var(--dark); }
+    .reveal-title { font-size:clamp(1.7rem,5vw,2.3rem); font-weight:900; text-align:center; line-height:1.2; margin-bottom:6px; }
     .reveal-title .accent { color:var(--gold); }
     .reveal-sub { text-align:center; color:var(--gray); font-size:.97rem; margin-bottom:28px; }
     .club-badge-row { display:flex; justify-content:center; gap:8px; flex-wrap:wrap; margin-bottom:28px; }
     .club-pill { background:var(--gold); color:#fff; border-radius:50px; padding:7px 16px; font-size:.82rem; font-weight:900; display:flex; align-items:center; gap:5px; }
 
-    /* Seasons grid */
     .seasons-grid { display:flex; flex-direction:column; gap:14px; margin-bottom:24px; }
     .season-card { background:var(--white); border-radius:18px; overflow:hidden; box-shadow:0 2px 14px rgba(0,0,0,.07); }
     .season-header { display:flex; align-items:center; gap:12px; padding:14px 18px; }
     .season-icon { font-size:2rem; flex-shrink:0; }
-    .season-header h3 { font-weight:900; font-size:1rem; color:var(--dark); margin:0; }
+    .season-header h3 { font-weight:900; font-size:1rem; margin:0; }
     .season-header .s-badge { margin-left:auto; background:var(--gold-light); color:var(--gold); font-weight:900; font-size:.72rem; padding:3px 10px; border-radius:50px; white-space:nowrap; }
     .season-body { padding:12px 18px 16px; font-size:.88rem; color:var(--gray); border-top:1px dashed #f0e0c0; }
     .season-body ul { list-style:none; display:flex; flex-direction:column; gap:5px; }
-    .season-body ul li::before { content:"âœ¦ "; color:var(--gold); font-size:.75rem; }
+    .season-body ul li::before { content:"✦ "; color:var(--gold); font-size:.75rem; }
 
-    /* Exclusive section */
     .exclusive-box { background:linear-gradient(135deg,var(--purple-light),var(--pink-light)); border-radius:18px; padding:22px 20px; margin-bottom:20px; }
     .exclusive-box h3 { font-weight:900; font-size:1rem; color:var(--purple); margin-bottom:12px; }
     .exclusive-items { display:flex; flex-direction:column; gap:10px; }
-    .excl-item { display:flex; align-items:center; gap:12px; background:var(--white); border-radius:12px; padding:12px 14px; }
+    .excl-item { display:flex; align-items:center; gap:12px; background:var(--white); border-radius:12px; padding:12px 14px; font-weight:700; font-size:.9rem; }
     .excl-item .ei { font-size:1.5rem; }
-    .excl-item span { font-weight:700; font-size:.9rem; }
 
-    /* PRICE */
     #price-section { background:var(--white); padding:48px 0; }
     .total-table { background:var(--dark); border-radius:18px; overflow:hidden; margin-bottom:20px; }
     .total-table table { width:100%; border-collapse:collapse; }
@@ -100,7 +91,6 @@
     .currency-note .cn-icon { font-size:1.2rem; flex-shrink:0; margin-top:1px; }
     .currency-note strong { display:block; margin-bottom:2px; font-size:.88rem; color:#15803d; }
 
-    /* CTA */
     #cta-section { padding:40px 0 20px; background:linear-gradient(160deg,var(--gold-light) 0%,var(--cream) 100%); }
     .btn-yes { display:block; width:100%; max-width:520px; margin:0 auto 14px; background:linear-gradient(135deg,#27AE60,#1abc9c); color:#fff; font-family:'Nunito',sans-serif; font-size:1.1rem; font-weight:900; text-align:center; padding:22px 24px; border-radius:50px; border:none; cursor:pointer; text-transform:uppercase; letter-spacing:.5px; box-shadow:0 6px 24px rgba(39,174,96,.45); animation:pulse-yes 2.2s infinite; line-height:1.3; }
     @keyframes pulse-yes { 0%,100%{box-shadow:0 6px 24px rgba(39,174,96,.45);transform:scale(1);}50%{box-shadow:0 8px 36px rgba(39,174,96,.7);transform:scale(1.015);} }
@@ -110,233 +100,159 @@
     .btn-no { display:block; text-align:center; font-size:.8rem; color:var(--gray); font-weight:600; margin-top:18px; padding:8px; cursor:pointer; text-decoration:underline; opacity:.75; transition:opacity .2s; }
     .btn-no:hover { opacity:1; }
 
-    /* GUARANTEE */
     #mini-guarantee { padding:36px 0; background:var(--white); }
     .mini-g-box { background:var(--green-light); border:2px solid var(--green); border-radius:18px; padding:24px 20px; display:flex; align-items:flex-start; gap:16px; }
     .mini-g-box .g-icon { font-size:2.8rem; flex-shrink:0; }
     .mini-g-box h3 { font-weight:900; font-size:1rem; color:var(--green-dark); margin-bottom:5px; }
-    .mini-g-box p  { font-size:.88rem; color:#2d6a4f; line-height:1.5; }
+    .mini-g-box p { font-size:.88rem; color:#2d6a4f; line-height:1.5; }
 
-    /* FOOTER */
     footer { background:#1a1a2e; color:#666; text-align:center; padding:20px; font-size:.72rem; line-height:1.8; }
     footer a { color:#888; text-decoration:underline; }
   </style>
 </head>
 <body>
 
-<!-- URGENCY BAR -->
 <div id="urgency-bar">
-  âš ï¸ Â¡Espera! Esta oferta <strong>desaparece para siempre</strong> en cuanto salgas de esta pÃ¡gina. âš ï¸
+  ⚠️ ¡Espera! Esta oferta <strong>desaparece para siempre</strong> en cuanto salgas de esta página. ⚠️
 </div>
 
-<!-- CONGRATS -->
 <section id="congrats">
   <div class="container">
-    <div class="congrats-badge fade-in">âœ… Compra Confirmada</div>
-    <h1 class="fade-in">
-      Â¡Felicitaciones! Tu<br>
-      <span>Mundo Squishy Pack</span><br>
-      ya estÃ¡ en camino ðŸŽ‰
-    </h1>
+    <div class="congrats-badge fade-in">✅ Compra Confirmada</div>
+    <h1 class="fade-in">¡Felicitaciones! Tu<br><span>Mundo Squishy Pack</span><br>ya está en camino 🎉</h1>
     <div class="transition-copy fade-in">
-      ðŸ‘‹ <strong>Antes de acceder a tu descarga</strong>, tenemos una oferta especial preparada exclusivamente para nuevos miembros â€” disponible Ãºnicamente en este momento.
+      👋 <strong>Antes de acceder a tu descarga</strong>, tenemos una oferta especial preparada exclusivamente para nuevos miembros — disponible únicamente en este momento.
     </div>
   </div>
 </section>
 
-<!-- HOOK -->
 <section id="hook">
   <div class="container">
-    <h2 class="hook-headline fade-in">
-      Tu Pack es increÃ­ble...<br>
-      pero <span class="gold">Â¿quÃ© pasa cuando los terminÃ¡s todos?</span> ðŸ¤”
-    </h2>
-    <p class="hook-sub fade-in">La creatividad de tus hijos no para. Y el pack principal tampoco deberÃ­a.</p>
+    <h2 class="hook-headline fade-in">Tu Pack es increíble...<br>pero <span class="gold">¿qué pasa cuando los terminás todos?</span> 🤔</h2>
+    <p class="hook-sub fade-in">La creatividad de tus hijos no para. Y el pack principal tampoco debería.</p>
     <div class="hook-box fade-in">
-      <p>Los papÃ¡s que ya compraron el Mundo Squishy Pack nos dicen lo mismo: <strong>"Â¡Los chicos terminaron todos los moldes en una semana y me piden mÃ¡s!"</strong><br><br>
-      Y tiene todo el sentido â€” cuando algo entusiasma a tus hijos, lo hacen una y otra vez. El problema es que el pack principal tiene lÃ­mites... y el entusiasmo de ellos, no.</p>
+      Los papás que ya compraron el Mundo Squishy Pack nos dicen lo mismo: <strong>"¡Los chicos terminaron todos los moldes en una semana y me piden más!"</strong><br><br>
+      Y tiene todo el sentido — cuando algo entusiasma a tus hijos, lo hacen una y otra vez. El problema es que el pack principal tiene límites... y el entusiasmo de ellos, no.
     </div>
     <ul class="limitation-list">
-      <li class="fade-in"><span class="e">ðŸ”„</span><span>Repiten los mismos moldes una y otra vez â€” y el juguete pierde la magia.</span></li>
-      <li class="fade-in"><span class="e">ðŸŒ¦ï¸</span><span>Cada estaciÃ³n del aÃ±o pide diseÃ±os diferentes: no es lo mismo hacer squishies en verano que en Navidad.</span></li>
-      <li class="fade-in"><span class="e">âœ¨</span><span>Los chicos quieren personajes nuevos, temas nuevos, sorpresas nuevas â€” la novedad es el combustible de la creatividad.</span></li>
+      <li class="fade-in"><span class="e">🔄</span><span>Repiten los mismos moldes una y otra vez — y el juguete pierde la magia.</span></li>
+      <li class="fade-in"><span class="e">🌦️</span><span>Cada estación del año pide diseños diferentes: no es lo mismo hacer squishies en verano que en Navidad.</span></li>
+      <li class="fade-in"><span class="e">✨</span><span>Los chicos quieren personajes nuevos, temas nuevos, sorpresas nuevas — la novedad es el combustible de la creatividad.</span></li>
     </ul>
     <div class="hook-bridge fade-in">
-      <p>ðŸ† <strong>Â¿Y si tuvieras contenido fresco para todo el aÃ±o</strong> â€” colecciones exclusivas para cada estaciÃ³n, eventos y momentos especiales â€” por un Ãºnico pago irrisorio?</p>
+      🏆 <strong>¿Y si tuvieras contenido fresco para todo el año</strong> — colecciones exclusivas para cada estación, eventos y momentos especiales — por un único pago irrisorio?
     </div>
   </div>
 </section>
 
-<!-- PRODUCT REVEAL -->
 <section id="product-reveal">
   <div class="container">
-    <div style="text-align:center" class="fade-in">
-      <span class="reveal-badge">â­ Exclusivo para Nuevos Miembros</span>
-    </div>
-    <h2 class="reveal-title fade-in">
-      <span class="accent">Club del Squishy</span><br>
-      Temporada Completa
-    </h2>
-    <p class="reveal-sub fade-in">4 colecciones exclusivas para cada estaciÃ³n del aÃ±o + contenido especial para fechas Ãºnicas. Todo en un solo pack, un solo pago, para siempre.</p>
+    <div style="text-align:center" class="fade-in"><span class="reveal-badge">⭐ Exclusivo para Nuevos Miembros</span></div>
+    <h2 class="reveal-title fade-in"><span class="accent">Club del Squishy</span><br>Temporada Completa</h2>
+    <p class="reveal-sub fade-in">4 colecciones exclusivas para cada estación del año + contenido especial para fechas únicas. Todo en un solo pack, un solo pago, para siempre.</p>
 
     <div class="club-badge-row fade-in">
-      <div class="club-pill">ðŸŒ¸ Primavera</div>
-      <div class="club-pill">â˜€ï¸ Verano</div>
-      <div class="club-pill">ðŸ‚ OtoÃ±o</div>
-      <div class="club-pill">â„ï¸ Invierno</div>
+      <div class="club-pill">🌸 Primavera</div>
+      <div class="club-pill">☀️ Verano</div>
+      <div class="club-pill">🍂 Otoño</div>
+      <div class="club-pill">❄️ Invierno</div>
     </div>
 
-    <!-- Mockup real -->
-    <img src="club-squishy.jpg" alt="Club del Squishy â€” Temporada Completa" loading="lazy" class="fade-in"
+    <img src="club-squishy.jpg" alt="Club del Squishy — Temporada Completa" loading="lazy" class="fade-in"
       style="width:100%;max-width:500px;display:block;margin:0 auto 32px;border-radius:20px;box-shadow:0 8px 32px rgba(245,158,11,.28);" />
 
-    <!-- Seasons -->
     <div class="seasons-grid">
       <div class="season-card fade-in">
-        <div class="season-header">
-          <div class="season-icon">ðŸŒ¸</div>
-          <h3>ColecciÃ³n Primavera</h3>
-          <div class="s-badge">+80 moldes</div>
-        </div>
-        <div class="season-body">
-          <ul>
-            <li>Flores, mariposas y jardÃ­n kawaii</li>
-            <li>Animales de primavera: conejitos, pollitos, mariquitas</li>
-            <li>Especial Pascua y DÃ­a de la Madre</li>
-          </ul>
-        </div>
+        <div class="season-header"><div class="season-icon">🌸</div><h3>Colección Primavera</h3><div class="s-badge">+80 moldes</div></div>
+        <div class="season-body"><ul><li>Flores, mariposas y jardín kawaii</li><li>Conejitos, pollitos, mariquitas</li><li>Especial Pascua y Día de la Madre</li></ul></div>
       </div>
       <div class="season-card fade-in">
-        <div class="season-header">
-          <div class="season-icon">â˜€ï¸</div>
-          <h3>ColecciÃ³n Verano</h3>
-          <div class="s-badge">+80 moldes</div>
-        </div>
-        <div class="season-body">
-          <ul>
-            <li>Playa, helados, frutas tropicales kawaii</li>
-            <li>Animales del mar: ballenas, pulpos, peces</li>
-            <li>Especial vacaciones de verano</li>
-          </ul>
-        </div>
+        <div class="season-header"><div class="season-icon">☀️</div><h3>Colección Verano</h3><div class="s-badge">+80 moldes</div></div>
+        <div class="season-body"><ul><li>Playa, helados, frutas tropicales kawaii</li><li>Ballenas, pulpos, peces del mar</li><li>Especial vacaciones de verano</li></ul></div>
       </div>
       <div class="season-card fade-in">
-        <div class="season-header">
-          <div class="season-icon">ðŸ‚</div>
-          <h3>ColecciÃ³n OtoÃ±o</h3>
-          <div class="s-badge">+80 moldes</div>
-        </div>
-        <div class="season-body">
-          <ul>
-            <li>Hojas, setas, ardillas y animales del bosque</li>
-            <li>Calabazas y personajes de Halloween kawaii</li>
-            <li>Especial DÃ­a de Muertos y cosecha</li>
-          </ul>
-        </div>
+        <div class="season-header"><div class="season-icon">🍂</div><h3>Colección Otoño</h3><div class="s-badge">+80 moldes</div></div>
+        <div class="season-body"><ul><li>Hojas, setas, ardillas del bosque kawaii</li><li>Calabazas y Halloween kawaii</li><li>Especial Día de Muertos y cosecha</li></ul></div>
       </div>
       <div class="season-card fade-in">
-        <div class="season-header">
-          <div class="season-icon">â„ï¸</div>
-          <h3>ColecciÃ³n Invierno</h3>
-          <div class="s-badge">+80 moldes</div>
-        </div>
-        <div class="season-body">
-          <ul>
-            <li>Copos de nieve, pingÃ¼inos, osos polares kawaii</li>
-            <li>Especial Navidad: renos, elfos, estrellas</li>
-            <li>Especial AÃ±o Nuevo y Reyes</li>
-          </ul>
-        </div>
+        <div class="season-header"><div class="season-icon">❄️</div><h3>Colección Invierno</h3><div class="s-badge">+80 moldes</div></div>
+        <div class="season-body"><ul><li>Copos de nieve, pingüinos, osos polares</li><li>Navidad: renos, elfos, estrellas kawaii</li><li>Especial Año Nuevo y Reyes</li></ul></div>
       </div>
     </div>
 
-    <!-- Exclusive extras -->
     <div class="exclusive-box fade-in">
-      <h3>ðŸŽ Bonus exclusivos del Club:</h3>
+      <h3>🎁 Bonus exclusivos del Club:</h3>
       <div class="exclusive-items">
-        <div class="excl-item"><div class="ei">ðŸŽ¨</div><span>GuÃ­a de tÃ©cnicas avanzadas: relieve, textura y acabado mate</span></div>
-        <div class="excl-item"><div class="ei">ðŸŽª</div><span>20 diseÃ±os de ediciÃ³n limitada â€” nunca vendidos por separado</span></div>
-        <div class="excl-item"><div class="ei">ðŸ·ï¸</div><span>Tarjetas de regalo imprimibles para los squishies terminados</span></div>
+        <div class="excl-item"><span class="ei">🎨</span><span>Guía de técnicas avanzadas: relieve, textura y acabado mate</span></div>
+        <div class="excl-item"><span class="ei">🎪</span><span>20 diseños de edición limitada — nunca vendidos por separado</span></div>
+        <div class="excl-item"><span class="ei">🏷️</span><span>Tarjetas de regalo imprimibles para los squishies terminados</span></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- PRICE -->
 <section id="price-section">
   <div class="container">
     <div class="total-table fade-in">
       <table>
-        <thead><tr><th>Â¿QuÃ© incluye el Club?</th><th>Valor individual</th></tr></thead>
+        <thead><tr><th>¿Qué incluye el Club?</th><th>Valor individual</th></tr></thead>
         <tbody>
-          <tr><td>ðŸŒ¸ ColecciÃ³n Primavera (+80 moldes)</td><td>â‚¬14,90</td></tr>
-          <tr><td>â˜€ï¸ ColecciÃ³n Verano (+80 moldes)</td><td>â‚¬14,90</td></tr>
-          <tr><td>ðŸ‚ ColecciÃ³n OtoÃ±o (+80 moldes)</td><td>â‚¬14,90</td></tr>
-          <tr><td>â„ï¸ ColecciÃ³n Invierno (+80 moldes)</td><td>â‚¬14,90</td></tr>
-          <tr><td>GuÃ­a de tÃ©cnicas avanzadas</td><td>â‚¬7,90</td></tr>
-          <tr><td>20 diseÃ±os ediciÃ³n limitada</td><td>â‚¬9,90</td></tr>
-          <tr><td>Tarjetas de regalo imprimibles</td><td>â‚¬4,90</td></tr>
-          <tr class="total"><td>ðŸ’° VALOR TOTAL</td><td>â‚¬82,30</td></tr>
+          <tr><td>🌸 Colección Primavera (+80 moldes)</td><td>€14,90</td></tr>
+          <tr><td>☀️ Colección Verano (+80 moldes)</td><td>€14,90</td></tr>
+          <tr><td>🍂 Colección Otoño (+80 moldes)</td><td>€14,90</td></tr>
+          <tr><td>❄️ Colección Invierno (+80 moldes)</td><td>€14,90</td></tr>
+          <tr><td>Guía de técnicas avanzadas</td><td>€7,90</td></tr>
+          <tr><td>20 diseños edición limitada</td><td>€9,90</td></tr>
+          <tr><td>Tarjetas de regalo imprimibles</td><td>€4,90</td></tr>
+          <tr class="total"><td>💰 VALOR TOTAL</td><td>€82,30</td></tr>
         </tbody>
       </table>
     </div>
     <div class="oto-price-box fade-in">
-      <div class="oto-label">â­ Oferta de Una Sola Vez â€” Solo para Miembros Nuevos</div>
-      <div class="was">Valor total: â‚¬82,30</div>
-      <div class="now-txt">ðŸ”¥ Precio especial exclusivo â€” solo en esta pantalla</div>
-      <div class="price-hero">â‚¬9,99</div>
-      <div class="warning-txt">
-        âš ï¸ Si cerrÃ¡s o recargÃ¡s esta pÃ¡gina, <strong>perdÃ©s este precio para siempre.</strong><br>
-        No hay forma de volver a acceder a esta oferta de miembro nuevo.
-      </div>
+      <div class="oto-label">⭐ Oferta de Una Sola Vez — Solo para Miembros Nuevos</div>
+      <div class="was">Valor total: €82,30</div>
+      <div class="now-txt">🔥 Precio especial exclusivo — solo en esta pantalla</div>
+      <div class="price-hero">€9,99</div>
+      <div class="warning-txt">⚠️ Si cerrás o recargás esta página, <strong>perdés este precio para siempre.</strong><br>No hay forma de volver a acceder a esta oferta de miembro nuevo.</div>
     </div>
     <div class="currency-note fade-in">
-      <div class="cn-icon">ðŸŒ</div>
-      <div>
-        <strong>PagÃ¡s en tu moneda local â€” sin sorpresas.</strong>
-        El precio base es en euros. Hotmart convierte automÃ¡ticamente. <em>VerÃ¡s el importe final en tu moneda antes de confirmar.</em>
-      </div>
+      <div class="cn-icon">🌍</div>
+      <div><strong>Pagás en tu moneda local — sin sorpresas.</strong> El precio base es en euros. Hotmart convierte automáticamente. <em>Verás el importe final en tu moneda antes de confirmar.</em></div>
     </div>
   </div>
 </section>
 
-<!-- CTA -->
 <section id="cta-section">
   <div class="container">
     <a href="https://pay.hotmart.com/P107779572S?checkoutMode=10" class="btn-yes fade-in">
-      ðŸ† Â¡SÃ! Quiero el Club del Squishy Completo por â‚¬9,99 â†’
-      <small>Se agrega a tu pedido actual. Un solo clic, sin llenar nada mÃ¡s.</small>
+      🏆 ¡SÍ! Quiero el Club del Squishy Completo por €9,99 →
+      <small>Se agrega a tu pedido actual. Un solo clic, sin llenar nada más.</small>
     </a>
     <div class="security-strip fade-in">
-      <span>ðŸ”’ Pago 100% seguro</span>
-      <span>âš¡ Se agrega automÃ¡ticamente</span>
-      <span>ðŸ›¡ï¸ GarantÃ­a 7 dÃ­as</span>
-      <span>ðŸ“„ PDF descargable</span>
+      <span>🔒 Pago 100% seguro</span>
+      <span>⚡ Se agrega automáticamente</span>
+      <span>🛡️ Garantía 7 días</span>
+      <span>📄 PDF descargable</span>
     </div>
-    <a href="upsell2.html" class="btn-no fade-in">
-      No gracias, no me interesan 320+ moldes exclusivos para todo el aÃ±o.
-    </a>
+    <a href="upsell2.html" class="btn-no fade-in">No gracias, no me interesan 320+ moldes exclusivos para todo el año.</a>
   </div>
 </section>
 
-<!-- GUARANTEE -->
 <section id="mini-guarantee">
   <div class="container">
     <div class="mini-g-box fade-in">
-      <div class="g-icon">ðŸ›¡ï¸</div>
+      <div class="g-icon">🛡️</div>
       <div>
-        <h3>Cubierto por la misma garantÃ­a de 7 dÃ­as</h3>
-        <p>Si agregÃ¡s el Club del Squishy y no estÃ¡s satisfecha por cualquier motivo, te devolvemos el dinero junto con el pack principal â€” sin preguntas, sin demoras. El riesgo es completamente nuestro.</p>
+        <h3>Cubierto por la misma garantía de 7 días</h3>
+        <p>Si agregás el Club del Squishy y no estás satisfecha por cualquier motivo, te devolvemos el dinero junto con el pack principal — sin preguntas, sin demoras. El riesgo es completamente nuestro.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer>
-  <p>Â© 2026 Mundo Squishy Pack. Todos los derechos reservados.</p>
-  <p><a href="#">PolÃ­tica de Privacidad</a> &nbsp;|&nbsp; <a href="#">TÃ©rminos y Condiciones</a></p>
-  <p style="margin-top:8px;color:#444;">La plataforma de pago y entrega es Hotmart. Esta pÃ¡gina es parte del funnel de ventas de Mundo Squishy Pack.</p>
+  <p>© 2026 Mundo Squishy Pack. Todos los derechos reservados.</p>
+  <p><a href="#">Política de Privacidad</a> &nbsp;|&nbsp; <a href="#">Términos y Condiciones</a></p>
 </footer>
 
 <script>
